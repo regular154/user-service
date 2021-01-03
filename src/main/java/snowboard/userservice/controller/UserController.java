@@ -24,7 +24,7 @@ public class UserController {
         return userService.getAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/id/{id}")
     public @ResponseBody User getById(@PathVariable("id") String id) {
         return userService.getUserById(id).orElseThrow(UserNotFoundException::new);
     }
