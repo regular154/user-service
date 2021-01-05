@@ -1,1 +1,1 @@
-snowboard.CustomUserStorageProviderFactory
+snowboard.userservice.keycloak.user_spi.MyUserStorageProviderFactory
